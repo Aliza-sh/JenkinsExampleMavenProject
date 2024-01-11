@@ -18,12 +18,19 @@
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
-  <distributionManagement>
+  <!--<distributionManagement>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/single-module-site</url>
     </site>
+  </distributionManagement>-->
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <url>https://github.com/Aliza-sh/Deploy_maven_ptojrct</url>
+    </repository>
   </distributionManagement>
 
   <build>
