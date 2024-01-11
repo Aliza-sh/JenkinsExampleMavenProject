@@ -26,12 +26,6 @@
     </site>
   </distributionManagement>-->
 
-
-
-
-
-
-
   <distributionManagement>
     <repository>
       <id>github</id>
