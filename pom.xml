@@ -29,9 +29,15 @@
   <distributionManagement>
     <repository>
       <id>github</id>
-      <url>https://github.com/Aliza-sh/Deploy_maven_ptojrct</url>
+      <url>https://maven.pkg.github.com/Aliza-sh/MavenJenkinsProject</url>
     </repository>
   </distributionManagement>
+
+  <server>
+    <id>github</id>
+    <username>Aliza-sh</username>
+    <password>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</password>
+  </server>
 
   <build>
     <finalName>${project.artifactId}</finalName>
