@@ -31,13 +31,17 @@
       <id>github</id>
       <url>https://maven.pkg.github.com/Aliza-sh/Deploy_maven_ptojrct</url>
     </repository>
+
   </distributionManagement>
 
-  <server>
-    <id>github</id>
-    <username>Aliza-sh</username>
-    <password>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</password>
-  </server>
+  <servers>
+    <server>
+      <id>github</id>
+      <username>Aliza-sh</username>
+      <password>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</password>
+    </server>
+    <!-- دیگر سرورها -->
+  </servers>
 
   <build>
     <finalName>${project.artifactId}</finalName>
